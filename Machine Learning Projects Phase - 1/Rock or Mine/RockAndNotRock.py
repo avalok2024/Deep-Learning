@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 
 # Data Collection and Processing
 'loading the dataset to pandas dataframe'
-sonar_data = pd.read_csv("Resources/sonar data.csv", header=None)
+sonar_data = pd.read_csv("sonar data.csv", header=None)
 sonar_data.head()
 
 # print(sonar_data)
