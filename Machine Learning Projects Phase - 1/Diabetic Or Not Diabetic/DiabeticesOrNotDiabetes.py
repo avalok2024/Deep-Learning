@@ -1,12 +1,9 @@
-from dataclasses import dataclass
-
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
 from sklearn import svm
-from spacy.cli.train import train
 
 # Data Collection and Analysis
 diabetes_data = pd.read_csv("/Machine Learning Projects Phase - 1/Diabetic Or Not Diabetic/diabetes.csv")
